@@ -1,0 +1,50 @@
+main {
+  &.main {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 8vh;
+
+    .main_description {
+      width: 600px;
+
+      h1 {
+        line-height: 70px;
+        font-size: 3.125rem;
+               
+        span {
+          font-weight: bold;
+        }
+      }
+
+      p {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 30px;
+      }
+
+      .main_description_btn {
+        margin-top: 3rem;
+        width: 250px;
+        height: 65px;
+        background: $primary-red;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: bold;
+        box-shadow: 0px 1px 1px 1px rgba(245,56,56,1);
+        transition: .3s ease-in;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .main_img {
+        width: 600px;
+        height: 380px;
+    }
+  }
+}
