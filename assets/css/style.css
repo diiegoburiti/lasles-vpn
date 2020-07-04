@@ -279,9 +279,6 @@ nav.nav {
     transition: .2s ease-in; }
     .plans_container .plans_card:hover {
       border: 2px solid #f53838; }
-      .plans_container .plans_card:hover button {
-        background-color: #f53838;
-        color: #fff; }
     .plans_container .plans_card .plans_card_img_box {
       width: 145px;
       height: 165px;
@@ -379,8 +376,7 @@ nav.nav {
       max-height: 100px; }
 
 .testimonials {
-  max-width: 100vw;
-  overflow-x: auto; }
+  max-width: 100vw; }
   .testimonials .testimonials_text {
     text-align: center; }
     .testimonials .testimonials_text h2 {
@@ -393,7 +389,9 @@ nav.nav {
       line-height: 30px; }
   .testimonials .testimonials_card {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding: 3rem 0;
+    overflow-x: auto; }
     .testimonials .testimonials_card .testimonials_card_user {
       max-width: 400px;
       min-width: 400px;
