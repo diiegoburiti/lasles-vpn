@@ -1,0 +1,125 @@
+.plans {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.plans_text {
+  text-align: center;
+
+  h2 {
+    line-height: 50px;
+  }
+
+  p {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+    line-height: 30px;
+  }
+}
+
+.plans_container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-top: 4rem;
+
+  .plans_card {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid #dddddd;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 4rem 4rem 9rem 4rem;
+    max-width: 330px;
+    position: relative;
+
+    .plans_card_img_box {
+      width: 145px;
+      height: 165px;
+      margin: 0 auto;
+    }
+
+    .plans_card_title {
+      font-weight: 500;
+      font-size: 1.125rem;
+      line-height: 30px;
+      margin: 2rem auto;
+    }
+
+    .plans_card_list {
+      li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+
+        span {
+          font-size: 0.875rem;
+          line-height: 30px;
+          color: $primary-gray;
+          margin-bottom: 0.625rem;
+          margin-left: 1.1rem;
+        }
+      }
+    }
+
+    .plans_card_btn {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 6rem;
+      position: absolute;
+      bottom: 40px;
+      right: 0px;
+      left: 0px;
+
+      span {
+        font-size: 1.5625rem;
+        font-weight: 500;
+        line-height: 30px;
+
+        &.month {
+          font-weight: 400;
+          color: $primary-gray;
+        }
+      }
+
+      button {
+        width: 150px;
+        height: 45px;
+        margin: 0 auto;
+        border: 1px solid $primary-red;
+        border-radius: 50px;
+        background-color: transparent;
+        color: $primary-red;
+        font-size: 1rem;
+        line-height: 19px;
+        margin-top: 1rem;
+        font-weight: bold;
+        transition: 0.3s ease-in;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    &.select {
+      border: 2px solid $primary-red;
+      button {
+        background-color: $primary-red;
+        color: #fff;
+      }
+    }
+  }
+}

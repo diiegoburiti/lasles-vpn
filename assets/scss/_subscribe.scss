@@ -1,0 +1,40 @@
+.subscribe {
+  max-width: 100%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 2rem 6rem;
+
+  .subscribe_text {
+    h2 {
+      width: 55%;
+      line-height: 45px;
+    }
+
+    p {
+      margin-top: 1rem;
+      line-height: 30px;
+    }
+  }
+  .subscribe_btn {
+    margin-right: 4rem;
+    button {
+      width: 250px;
+      height: 60px;
+      border-radius: 10px;
+      background: $primary-red;
+      text-align: center;
+      color: #fff;
+      font-size: 1rem;
+      line-height: 25px;
+      font-weight: bold;
+      transition: .3s ease-in;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}

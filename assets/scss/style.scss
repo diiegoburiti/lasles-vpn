@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
-$primary-black: #0B132A;
-$primary-gray: #4F5665;
-$primary-red: #F53838;
+$primary-black: #0b132a;
+$primary-gray: #4f5665;
+$primary-red: #f53838;
 
 a {
   text-decoration: none;
@@ -36,10 +36,11 @@ body {
   margin: 0 auto;
   font-size: 1rem;
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: #fafafa;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: $primary-black;
   font-weight: 500;
   font-size: 2.1875rem;
@@ -47,7 +48,31 @@ h1, h2 {
 
 p {
   color: $primary-gray;
+  font-size: 1rem;
 }
 
-@import 'nav';
-@import 'main';
+@mixin footer-title {
+  font-size: 1.125rem;
+  line-height: 30px;
+  font-weight: 500;
+  color: $primary-black;
+  margin-bottom: 1.3rem;
+}
+
+@mixin footer-list {
+  margin-top: 0.875rem;
+  font-size: 1rem;
+  line-height: 30px;
+  color: $primary-gray;
+}
+
+@import "nav";
+@import "main";
+@import "numbers";
+@import "feature";
+@import "plans";
+@import "network";
+@import "sponsored";
+@import "testimonials";
+@import "subscribe";
+@import "footer";
