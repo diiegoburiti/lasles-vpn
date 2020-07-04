@@ -1,0 +1,22 @@
+{
+  "name": "lasles-vpn",
+  "version": "1.0.0",
+  "main": "./assets/js/index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./assets/js/script.js --output ./assets/js/index.js",
+    "build": "webpack --mode production ./assets/js/script.js --output ./assets/js/index.js"
+  },
+  "repository": "https://github.com/diiegoburiti/lasles-vpn.git",
+  "author": "Diego Buriti <bs.diego97@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4"
+  }
+}

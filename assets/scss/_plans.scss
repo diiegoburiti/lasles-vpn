@@ -37,6 +37,15 @@
     padding: 4rem 4rem 9rem 4rem;
     max-width: 330px;
     position: relative;
+    transition: .2s ease-in;
+
+    &:hover {
+      border: 2px solid $primary-red;
+      button {
+        background-color: $primary-red;
+        color: #fff;
+      }
+    }
 
     .plans_card_img_box {
       width: 145px;

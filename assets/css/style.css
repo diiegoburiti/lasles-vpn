@@ -145,8 +145,19 @@ nav.nav {
   align-items: center;
   padding: 2.4rem;
   border-radius: 10px;
-  box-shadow: 0px 0px 3px 0px rgba(44, 44, 44, 0.2);
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative; }
+  .numbers .numbers_shadown {
+    background: #0d1025 none repeat scroll 0% 0%;
+    opacity: 0.06;
+    -webkit-filter: blur(114px);
+            filter: blur(114px);
+    border-radius: 10px;
+    width: 1068.84px;
+    height: 189.22px;
+    position: absolute;
+    top: 150px;
+    left: -50px; }
   .numbers .numbers_card {
     display: flex;
     justify-content: space-between;
@@ -264,7 +275,13 @@ nav.nav {
     border-radius: 10px;
     padding: 4rem 4rem 9rem 4rem;
     max-width: 330px;
-    position: relative; }
+    position: relative;
+    transition: .2s ease-in; }
+    .plans_container .plans_card:hover {
+      border: 2px solid #f53838; }
+      .plans_container .plans_card:hover button {
+        background-color: #f53838;
+        color: #fff; }
     .plans_container .plans_card .plans_card_img_box {
       width: 145px;
       height: 165px;
@@ -560,7 +577,11 @@ nav.nav {
         margin-top: 0.875rem;
         font-size: 1rem;
         line-height: 30px;
-        color: #4f5665; }
+        color: #4f5665;
+        cursor: pointer;
+        transition: .3s ease-in; }
+        .footer_product ul li:hover {
+          text-decoration: underline; }
   .footer_engage {
     display: flex;
     flex-flow: column;
@@ -582,7 +603,11 @@ nav.nav {
         margin-top: 0.875rem;
         font-size: 1rem;
         line-height: 30px;
-        color: #4f5665; }
+        color: #4f5665;
+        cursor: pointer;
+        transition: .3s ease-in; }
+        .footer_engage ul li:hover {
+          text-decoration: underline; }
   .footer_earn {
     display: flex;
     flex-flow: column;
@@ -604,4 +629,8 @@ nav.nav {
         margin-top: 0.875rem;
         font-size: 1rem;
         line-height: 30px;
-        color: #4f5665; }
+        color: #4f5665;
+        cursor: pointer;
+        transition: .3s ease-in; }
+        .footer_earn ul li:hover {
+          text-decoration: underline; }

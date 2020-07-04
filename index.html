@@ -10,18 +10,18 @@
 </head>
 
 <body>
-  <nav class="nav">
+  <nav class="nav" data-menu="smooth">
     <div class="nav_logo">
       <img src="assets/icons/logo.svg" alt="Logo">
       <span class="nav_logo_text">Lales<strong>VPN</strong></span>
     </div>
 
     <ul class="nav_items">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Pricing</a></li>
-      <li><a href="#">Testimonials</a></li>
-      <li><a href="#">Help</a></li>
+      <li><a href="#main">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#help">Help</a></li>
     </ul>
 
     <div class="nav_btn">
@@ -30,7 +30,7 @@
     </div>
   </nav>
 
-  <main class="main">
+  <main class="main" id="main">
     <div class="main_description">
       <h1>Want anything to be easy with <span>LaslesVPN.</span></h1>
       <p>Provide a network for all your needs with easy and fun using <strong>LaslesVPN</strong> discover interesting
@@ -63,7 +63,6 @@
         <span class="numbers_card_number"><strong>30+</strong></span>
         <span class="numbers_card_text">Locations</span>
       </div>
-
     </div>
 
     <div class="numbers_card">
@@ -75,9 +74,10 @@
         <span class="numbers_card_text">Servers</span>
       </div>
     </div>
+    <div class="numbers_shadown"></div>
   </section>
 
-  <section class="feature_container">
+  <section class="feature_container" id="features">
     <div class="feature">
       <div class="feature_img">
         <figure class="numbers_card_img">
@@ -110,7 +110,7 @@
     </div>
   </section>
 
-  <section class="plans">
+  <section class="plans" id="pricing">
     <div class="plans_text">
       <h2>Choose Your Plan</h2>
       <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
@@ -175,7 +175,7 @@
         </div>
       </div>
 
-      <div class="plans_card select">
+      <div class="plans_card">
         <img class="plans_card_img_box" src="assets/img/Standard.png" alt="Premium plan">
         <span class="plans_card_title">Premium Plan</span>
         <ul class="plans_card_list">
@@ -236,7 +236,7 @@
   </section>
 
 
-  <section class="testimonials">
+  <section class="testimonials" id="testimonials">
     <div class="testimonials_text">
       <h2>Trusted by Thousands of Happy Customer</h2>
       <p>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.
@@ -325,7 +325,7 @@
     </div>
   </section>
 
-  <footer class="footer">
+  <footer class="footer" id="help">
     <div class="footer_info">
       <div class="footer_info_logo">
         <img src="assets/icons/logo.svg" alt="">
@@ -399,6 +399,7 @@
     </div>
   </footer>
 
+  <script src="./assets/js/index.js"></script>
 </body>
 
 </html>

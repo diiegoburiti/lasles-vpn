@@ -64,6 +64,12 @@ p {
   font-size: 1rem;
   line-height: 30px;
   color: $primary-gray;
+  cursor: pointer;
+  transition: .3s ease-in;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 @import "nav";
