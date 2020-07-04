@@ -1,7 +1,7 @@
 <h1>Project Title</h1>
 
 <p align="center">
-<image src="./assets/img/logo.png"/></br>
+<image src="./assets/img/Logo.png"/></br>
 <label>Logo</label>
 </p>
 
